@@ -55,7 +55,7 @@ body {
 	position: absolute;
 	top: 7px;
 	left: 0px;
-	background-image: url(/img/check_icon.png)
+	background-image: url(../img/check_icon.png)
 }
 
 .page-header_img {
@@ -323,8 +323,9 @@ body {
 }
 
 .price-check {
-	padding-left: 40px;
+	padding:0 0 0 40px;
 	margin: 20px 0 20px 0;
+    box-sizing: border-box;
 }
 
 .price-check-item {
